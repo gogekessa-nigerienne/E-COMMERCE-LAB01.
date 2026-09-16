@@ -1,0 +1,23 @@
+MySQL Database Access Instructions
+==================================
+
+Your MySQL database: ecommerce_2026A_mariam_kessa
+Your MySQL username: mariam.kessa
+Your current MySQL password: 42319121
+
+To change your MySQL password:
+
+1. Open a terminal and connect to MySQL:
+   mysql -u mariam.kessa -p
+
+2. Enter your current MySQL password when prompted.
+
+3. Once connected, run the following command to change your password:
+   ALTER USER 'mariam.kessa'@'localhost' IDENTIFIED BY 'your_new_password';
+
+4. Exit MySQL by typing:
+   quit
+
+Remember to replace 'your_new_password' with a strong, unique password of your choice.
+
+IMPORTANT: You must change your password before you can perform any other MySQL operations.
